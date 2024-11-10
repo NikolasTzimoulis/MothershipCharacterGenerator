@@ -1,0 +1,60 @@
+{
+  "id": "mothership-character-creator",
+  "title": "Mothership Character Generator",
+  "version": "1.0.0",
+  "compatibility": {
+    "minimum": "11",
+    "verified": "11"
+  },
+  "relationships": {
+    "requires": [
+      {
+        "id": "fvtt_mosh_1e_psg",
+        "type": "module",
+        "compatibility": {}
+      }
+    ]
+  },
+  "description": "A journal-based character generator for Mothership",
+  "authors": [
+    {
+      "name": "Naurgul",
+      "discord": "naurgul"
+    }
+  ],
+  "packs": [
+    {
+      "name": "character-generator-journal",
+      "label": "Character Generator Journal",
+      "path": "packs/character-generator-journal",
+      "type": "JournalEntry",
+      "system": "mosh",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "character-generator-macros",
+      "label": "Character Generator Macros",
+      "path": "packs/character-generator-macros",
+      "type": "Macro",
+      "system": "mosh",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "character-generator-tables",
+      "label": "Character Generator  Tables",
+      "path": "packs/character-generator-tables",
+      "type": "RollTable",
+      "system": "mosh",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    }
+  ]
+}
