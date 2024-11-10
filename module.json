@@ -57,5 +57,7 @@
       }
     }
   ],
-  "url": "https://github.com/NikolasTzimoulis/MothershipCharacterGenerator"
+  "url": "https://github.com/NikolasTzimoulis/MothershipCharacterGenerator",
+  "manifest": "https://raw.githubusercontent.com/username/repository-name/branch-name/module.json",
+  "download": "https://github.com/NikolasTzimoulis/MothershipCharacterGenerator/releases/download/stable/mothership-character-creator.zip"
 }
